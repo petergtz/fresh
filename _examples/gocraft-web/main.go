@@ -2,9 +2,10 @@ package main
 
 import (
 	"fmt"
-	"github.com/gocraft/web"
-	"github.com/pilu/fresh/runner/runnerutils"
 	"net/http"
+
+	"github.com/gocraft/web"
+	"github.com/petergtz/fresh/runner/runnerutils"
 )
 
 func runnerMiddleware(rw web.ResponseWriter, req *web.Request, next web.NextMiddlewareFunc) {

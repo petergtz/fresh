@@ -1,10 +1,11 @@
 package main
 
 import (
-	"github.com/codegangsta/martini"
-	"github.com/pilu/fresh/runner/runnerutils"
 	"net/http"
 	"os"
+
+	"github.com/codegangsta/martini"
+	"github.com/petergtz/fresh/runner/runnerutils"
 )
 
 func runnerMiddleware(w http.ResponseWriter, r *http.Request) {
